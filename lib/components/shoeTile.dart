@@ -12,7 +12,7 @@ class shoeTile extends StatelessWidget {
     return Container(
       width: screenWidth * 0.8,
 
-      margin: EdgeInsets.all(20),
+      margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(12),
@@ -57,7 +57,7 @@ class shoeTile extends StatelessWidget {
 
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 22,
+                        fontSize: 18,
                         color: Color(0xFF633D1F),
                       ),
                     ),
@@ -76,7 +76,7 @@ class shoeTile extends StatelessWidget {
               GestureDetector(
                 onTap: onTap,
                 child: Container(
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.all(12),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(12),

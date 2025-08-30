@@ -35,7 +35,7 @@ class _shopPageState extends State<shopPage> {
           children: [
             Container(
               height: 60,
-              width: 500,
+              width: double.infinity,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(12),
